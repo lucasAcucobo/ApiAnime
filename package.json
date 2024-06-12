@@ -1,0 +1,22 @@
+{
+  "name": "apianime",
+  "version": "1.0.0",
+  "description": "api de anime",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "build": "vue-cli-service build"
+  },
+  "author": "lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4"
+  }
+}
